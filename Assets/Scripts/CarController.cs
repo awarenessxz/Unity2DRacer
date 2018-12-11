@@ -7,8 +7,9 @@ public class CarController : MonoBehaviour {
     public float carSpeed;
     public float boundaryLeft = -1.9f;
     public float boundaryRight = 2f;
-    public UIManager ui;
+    public GameObject explosionObj;
     public AudioManager am;
+    public RaceManager rm;
     Vector2 position;   // temporary position of car
 
 	// Use this for initialization
@@ -29,9 +30,20 @@ public class CarController : MonoBehaviour {
     {
         if (collision.gameObject.tag == "EnemyCar")
         {
+            am.carSound.Stop();
+            PlayExplosion();
             Destroy(gameObject);
-            ui.GameEnded();
+            rm.StopGame();
             am.carSound.Stop();
         }
+    }
+
+    void PlayExplosion()
+    {
+        GameObject explosion = (GameObject)Instantiate(explosionObj);
+        // set position of explosion
+        explosion.transform.position = transform.position;
+        // play explosion sound
+        am.explosionSound.Play();
     }
 }

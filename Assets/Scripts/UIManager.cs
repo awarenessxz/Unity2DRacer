@@ -32,11 +32,10 @@ public class UIManager : MonoBehaviour {
         }
     }
 
-    public void GameEnded()
+    public void ShowMenu()
     {
         gameOver = true;
-        TogglePause();
-        foreach(Button button in buttons)
+        foreach (Button button in buttons)
         {
             button.gameObject.SetActive(true);
         }
@@ -45,7 +44,6 @@ public class UIManager : MonoBehaviour {
     // replay Game
     public void Replay()
     {
-        TogglePause();
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 

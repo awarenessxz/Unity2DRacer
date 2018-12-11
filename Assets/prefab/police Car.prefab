@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 212500941668252146}
   - component: {fileID: 114860553519114608}
   - component: {fileID: 61396247766631434}
+  - component: {fileID: 114034858889457630}
   m_Layer: 0
   m_Name: police Car
   m_TagString: EnemyCar
@@ -67,6 +68,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.9298557, y: 2.1613286}
   m_EdgeRadius: 0
+--- !u!114 &114034858889457630
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1819993856184006}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6040084fe2d2bb41bced22bf1f6bedc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  explosionObj: {fileID: 1659641649821922, guid: 3278864cc1737c8429cd317ec3161d4d,
+    type: 2}
 --- !u!114 &114860553519114608
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -2,10 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class AudioManager : MonoBehaviour {
-
-    public AudioSource carSound;
-    public AudioSource explosionSound;
+public class DestroyExplosion : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
@@ -16,4 +13,9 @@ public class AudioManager : MonoBehaviour {
 	void Update () {
 		
 	}
+
+    void DestroyGameObject()
+    {
+        Destroy(gameObject);
+    }
 }

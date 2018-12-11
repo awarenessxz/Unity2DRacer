@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 212937944129651280}
   - component: {fileID: 114966477517753024}
   - component: {fileID: 61515636205050310}
+  - component: {fileID: 114260097569779808}
   m_Layer: 0
   m_Name: orange
   m_TagString: EnemyCar
@@ -67,6 +68,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.9298557, y: 2.2429457}
   m_EdgeRadius: 0
+--- !u!114 &114260097569779808
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1043873370949072}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6040084fe2d2bb41bced22bf1f6bedc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  explosionObj: {fileID: 1659641649821922, guid: 3278864cc1737c8429cd317ec3161d4d,
+    type: 2}
 --- !u!114 &114966477517753024
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 212416618373816858}
   - component: {fileID: 114666140401631138}
   - component: {fileID: 61149724509550820}
+  - component: {fileID: 114378253910353026}
   m_Layer: 0
   m_Name: Truck
   m_TagString: EnemyCar
@@ -67,6 +68,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.98179394, y: 2.0351927}
   m_EdgeRadius: 0
+--- !u!114 &114378253910353026
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1562890813329006}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6040084fe2d2bb41bced22bf1f6bedc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  explosionObj: {fileID: 1659641649821922, guid: 3278864cc1737c8429cd317ec3161d4d,
+    type: 2}
 --- !u!114 &114666140401631138
 MonoBehaviour:
   m_ObjectHideFlags: 1

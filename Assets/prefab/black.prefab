@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 212251438251183838}
   - component: {fileID: 114297664961405262}
   - component: {fileID: 61646132227727764}
+  - component: {fileID: 114852499098566604}
   m_Layer: 0
   m_Name: black
   m_TagString: EnemyCar
@@ -79,6 +80,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 8
+--- !u!114 &114852499098566604
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1856093512263028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6040084fe2d2bb41bced22bf1f6bedc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  explosionObj: {fileID: 1659641649821922, guid: 3278864cc1737c8429cd317ec3161d4d,
+    type: 2}
 --- !u!212 &212251438251183838
 SpriteRenderer:
   m_ObjectHideFlags: 1

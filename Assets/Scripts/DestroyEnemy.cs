@@ -4,21 +4,22 @@ using UnityEngine;
 
 public class DestroyEnemy : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-        
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+    public GameObject explosionObj;
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "EnemyCar")
+        if (collision.gameObject.tag == "Player")
         {
-            Destroy(collision.gameObject);
+            PlayExplosion();
+            Destroy(gameObject);
         }
+    }
+
+    void PlayExplosion()
+    {
+        GameObject explosion = (GameObject)Instantiate(explosionObj);
+        // set position of explosion
+        explosion.transform.position = transform.position;
+        // play explosion sound
     }
 }
