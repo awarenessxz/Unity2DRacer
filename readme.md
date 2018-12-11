@@ -16,6 +16,7 @@ https://www.youtube.com/watch?v=VMXEXVrX2tw
 
 http://unluckystudio.com/game-art-giveaway-7-top-down-vehicles-sprites-pack/
 
+https://www.youtube.com/watch?v=VXK1KMDAldo
 Photoshop Buttons
 - Start with a new file
 - Make the background layer black.

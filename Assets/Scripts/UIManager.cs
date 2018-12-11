@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class UIManager : MonoBehaviour {
 
+    public string menuPage = "menu";
     public Text scoreText;
     public Button[] buttons;
     int score;
@@ -50,7 +51,7 @@ public class UIManager : MonoBehaviour {
     // Exit Game
     public void Exit()
     {
-        Application.Quit();
+        SceneManager.LoadScene(menuPage);
     }
 
     // Pause Game
