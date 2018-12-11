@@ -5,6 +5,7 @@ using UnityEngine;
 public class RaceManager : MonoBehaviour {
     
     public EnemySpawner spawner;
+    public RaceModeManager raceMode;
     public TrackMove track;
     public UIManager ui;
 
@@ -12,6 +13,7 @@ public class RaceManager : MonoBehaviour {
     {
         track.TrackStop();
         spawner.SpawnStop();
+        raceMode.gameEnded();
         ui.ShowMenu();
     }
 }
