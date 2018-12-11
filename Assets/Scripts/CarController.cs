@@ -14,7 +14,6 @@ public class CarController : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        am.carSound.Play();
         position = transform.position;  // current position of car
 	}
 	
