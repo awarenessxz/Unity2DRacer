@@ -8,9 +8,11 @@ public class UIManager : MonoBehaviour {
 
     public string menuPage = "menu";
     public Button[] buttons;
+    public GameObject gameOverPanel;
+    public Text gameOverMsgText;
 
-	// Use this for initialization
-	void Start () {
+    // Use this for initialization
+    void Start () {
 
 	}
 	
@@ -19,8 +21,14 @@ public class UIManager : MonoBehaviour {
 
 	}
 
+    public void UpdateGameOverMsg(string msg)
+    {
+        gameOverMsgText.text = msg;
+    }
+
     public void ShowMenu()
     {
+        gameOverPanel.SetActive(true);
         foreach (Button button in buttons)
         {
             button.gameObject.SetActive(true);

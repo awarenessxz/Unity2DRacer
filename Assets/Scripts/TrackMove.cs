@@ -5,8 +5,8 @@ using UnityEngine;
 public class TrackMove : MonoBehaviour {
 
     public float speed;
-    bool trackMoving;
-    Vector2 offset;
+    private bool trackMoving;
+    private Vector2 offset;
 
 	// Use this for initialization
 	void Start () {
@@ -27,8 +27,8 @@ public class TrackMove : MonoBehaviour {
 	}
 
     // stop the track
-    public void TrackStop()
+    public void ToggleTrackStatus()
     {
-        trackMoving = false;
+        trackMoving = !trackMoving;
     }
 }

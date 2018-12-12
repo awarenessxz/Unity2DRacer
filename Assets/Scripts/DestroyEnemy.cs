@@ -13,6 +13,10 @@ public class DestroyEnemy : MonoBehaviour {
             PlayExplosion();
             Destroy(gameObject);
         }
+        else if (collision.gameObject.tag == "EnemyCar")
+        {
+            Destroy(collision.gameObject);
+        }
     }
 
     void PlayExplosion()
@@ -20,6 +24,5 @@ public class DestroyEnemy : MonoBehaviour {
         GameObject explosion = (GameObject)Instantiate(explosionObj);
         // set position of explosion
         explosion.transform.position = transform.position;
-        // play explosion sound
     }
 }

@@ -10,12 +10,22 @@ public class CarController : MonoBehaviour {
     public GameObject explosionObj;
     public AudioManager am;
     public RaceManager rm;
-    Vector2 position;   // temporary position of car
+    private Vector2 position;   // temporary position of car
 
 	// Use this for initialization
-	void Start () {
+	void Start ()
+    {
+        if (rm == null)
+        {
+            rm = GameObject.FindGameObjectWithTag("RaceManager").GetComponent<RaceManager>();
+        }
+        if (am == null)
+        {
+            am = GameObject.FindGameObjectWithTag("AudioManager").GetComponent<AudioManager>();
+        }
+        am.carSound.Play();
         position = transform.position;  // current position of car
-	}
+    }
 	
 	// Update is called once per frame
 	void Update () {
@@ -33,11 +43,10 @@ public class CarController : MonoBehaviour {
             PlayExplosion();
             Destroy(gameObject);
             rm.StopGame();
-            am.carSound.Stop();
         }
     }
 
-    void PlayExplosion()
+    private void PlayExplosion()
     {
         GameObject explosion = (GameObject)Instantiate(explosionObj);
         // set position of explosion

@@ -6,8 +6,8 @@ using UnityEngine.UI;
 public class RaceModeManager : MonoBehaviour {
 
     public Text scoreText;
-    bool gameOver;
-    int score;
+    private bool gameOver;
+    private int score;
 
     // Use this for initialization
     void Start()
@@ -32,7 +32,7 @@ public class RaceModeManager : MonoBehaviour {
         }
     }
 
-    public void gameEnded()
+    public void GameEnded()
     {
         gameOver = true;
     }

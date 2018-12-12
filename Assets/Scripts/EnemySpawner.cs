@@ -8,8 +8,8 @@ public class EnemySpawner : MonoBehaviour {
     public float boundaryLeft = -1.9f;
     public float boundaryRight = 2f;
     public float delayTimer;
-    bool spawnActive;
-    float timer;
+    private bool spawnActive;
+    private float timer;
 
     // Use this for initialization
     void Start () {
@@ -32,8 +32,8 @@ public class EnemySpawner : MonoBehaviour {
         }
     }
 
-    public void SpawnStop()
+    public void ToggleSpawnStatus()
     {
-        spawnActive = false;
+        spawnActive = !spawnActive;
     }
 }
