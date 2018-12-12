@@ -1,31 +1,38 @@
-Create Explosion Sprite
-https://www.youtube.com/watch?v=r7J-wiJGK1w&index=1&list=PLytjVIyAOStpcOGg6HIHhnnOZAdxkAr1U
-https://www.youtube.com/watch?v=ou8VkQB2sos
-https://www.youtube.com/watch?v=iTHEXMF0hpc
-ff993e
+# 2D Racer Game Using Unity Overview
 
-ff7800
+This 2D Unity Racer game is based on the tutorial online. At the end are some of the sources which I have learnt the skills necessary to build this game.
 
-ff4800
+## Tips on Creating Simple Buttons in Photoshop (Freestyle)
+1. Start with a new file
+1. Make the background
+1. Create a new layer
+1. Drawing the button
+	1. On the new layer, Use the lasso tool. Draw each letter. 
+	1. Use paint bucket tool (foreground:white) to color each letter white.
+1. Adding Black Border
+	1. Use Quick Select tool to select the text.
+	1. Go to Toolbar -> Select -> Modify -> Expand (5px).
+	1. Use Paint Bucket Tool (background:black), color the outline.
+1. Make the background transparent
+1. Crop
+1. File -> save for web -> png24 (for the transparent background)
+1. DONE
 
-ffcc00
+## Credits
 
-4e4336
-
-https://www.youtube.com/watch?v=VMXEXVrX2tw
-
-http://unluckystudio.com/game-art-giveaway-7-top-down-vehicles-sprites-pack/
-
-https://www.youtube.com/watch?v=VXK1KMDAldo
-Photoshop Buttons
-- Start with a new file
-- Make the background layer black.
-- Create a new layer
-- using the lasso tool. Draw your text. Once drawn, use paint bucket tool to colour the text. (foreground).
-- Use Quick Select tool to select text.
-- Go to toolbar, Select, Modify, Expand (5px).
-- Use Paint bucket Tool, (background black), give a black outline.
-- This will create a simple button
-- make background transparent
-- crop
-- file, save for web. png-24 for the transparent background.
+- **Charger Games**
+	- [2D Unity Race Tutorial](https://www.youtube.com/watch?v=r7J-wiJGK1w&index=1&list=PLytjVIyAOStpcOGg6HIHhnnOZAdxkAr1U)
+- **Alexander Zotov**
+	- [Count Down with Delay Start Tutorial](https://www.youtube.com/watch?v=3MlauoiahvI)
+- **Sujit Yadav**
+	- [Topdown Car Game Sprite](http://unluckystudio.com/game-art-giveaway-7-top-down-vehicles-sprites-pack/)
+- **Blackthornpod**
+	- [Using Sprite Sheet in Unity](https://www.youtube.com/watch?v=ou8VkQB2sos)
+	- [Simple Menu in Unity](https://www.youtube.com/watch?v=VXK1KMDAldo)
+- **Pixelelement Games**
+	- [Explosion Animation and Collision Detection](https://www.youtube.com/watch?v=iTHEXMF0hpc)
+- **Jaysen Batchelor**
+	- [Create Explosion Animation in Photoshop](https://www.youtube.com/watch?v=VMXEXVrX2tw)
+	- Colors which I used: *#ff993e*, *#ff7800*, *#ff4800*, *#ffcc00*, *#4e4336*
+- **Jertlok**
+	- [3-2-1...Go Race Audio](https://www.youtube.com/watch?v=SuzKmKapAmM)
