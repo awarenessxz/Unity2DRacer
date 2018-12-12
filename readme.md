@@ -1,11 +1,24 @@
 # 2D Racer Game Using Unity Overview
 
-This 2D Unity Racer game is based on the tutorial online. At the end are some of the sources which I have learnt the skills necessary to build this game.
+This 2D Unity Racer game is based on the tutorial online. The overall game mechanishm is simple where it relies on left and right arrow maneuver to avoid incoming cars. There are 3 game mode namely, "race", "challenge" and destroy. Through the tutorials, I have learnt to implement simple collision detection, delay start timers, audio management, respawn, game menus and 2D sprite animation. At the end are some of the sources which I have used to learn the skills necessary to build this game.
+
+## Game Modes
+
+1. **Race Mode:** With only 1 life, objective is to survive as long as possible. 
+
+![Race Mode](./Documentation/raceMode.gif)
+
+2. **Challenge Mode:** Given 1 minute, avoid as many cars as possible.
+
+![Challenge Mode](./Documentation/challengeMode.gif)
+
+3. **Destroy Mode:** Have fun and enjoy the explosion!
+
+![Destroy Mode](./Documentation/destroyMode.gif)
 
 ## Tips on Creating Simple Buttons in Photoshop (Freestyle)
 
-![button1](./Assets/Sprites/RaceButton.png)
-![button2](./Assets/Sprites/QuitButton.png)
+![button](./Assets/Sprites/RaceButton.png)
 
 1. Start with a new file
 1. Make the background
