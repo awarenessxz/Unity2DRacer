@@ -4,8 +4,8 @@ This 2D Unity Racer game is based on the tutorial online. At the end are some of
 
 ## Tips on Creating Simple Buttons in Photoshop (Freestyle)
 
-![button1](./Assets/Sprites/RaceButton.png=250x)
-![button2](./Assets/Sprites/QuitButton.png=250x)
+![button1](./Assets/Sprites/RaceButton.png)
+![button2](./Assets/Sprites/QuitButton.png)
 
 1. Start with a new file
 1. Make the background
@@ -28,7 +28,7 @@ The following explosion animation was made using photoshop. The settings are as 
 - **Colors** : *#ff993e*, *#ff7800*, *#ff4800*, *#ffcc00*, *#4e4336*. 
 - **Canvas Size** : 400px x 400px 
 
-![explosion](./Documentation/Explosion.gif)
+![explosion](./Documentation/explosion.gif)
 
 ## Credits
 
