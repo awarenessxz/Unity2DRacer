@@ -7,9 +7,10 @@ public class MenuManager : MonoBehaviour {
 
     public string raceMode = "RacerMode";
     public string challengeMode = "ChallengeMode";
+    public string destroyMode = "DestroyMode";
 
-	// Use this for initialization
-	void Start () {
+    // Use this for initialization
+    void Start () {
 		
 	}
 	
@@ -26,6 +27,11 @@ public class MenuManager : MonoBehaviour {
     public void LoadChallengeMode()
     {
         SceneManager.LoadScene(challengeMode);
+    }
+
+    public void LoadDestoryMode()
+    {
+        SceneManager.LoadScene(destroyMode);
     }
 
     public void Exit()
