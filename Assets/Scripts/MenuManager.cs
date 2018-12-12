@@ -5,6 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class MenuManager : MonoBehaviour {
 
+    public string menuPage = "menu";
+    public string aboutPage = "About";
     public string raceMode = "RacerMode";
     public string challengeMode = "ChallengeMode";
     public string destroyMode = "DestroyMode";
@@ -32,6 +34,16 @@ public class MenuManager : MonoBehaviour {
     public void LoadDestoryMode()
     {
         SceneManager.LoadScene(destroyMode);
+    }
+
+    public void LoadAboutPage()
+    {
+        SceneManager.LoadScene(aboutPage);
+    }
+
+    public void LoadMenuPage()
+    {
+        SceneManager.LoadScene(menuPage);
     }
 
     public void Exit()
