@@ -6,9 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/RacerMode.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 1
     path: Assets/Scenes/Menu.unity
     guid: dcd38ffc9c2895549b712048a1ec5ea0
   - enabled: 0
@@ -17,4 +14,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/About.unity
     guid: bf0291b8b1b7d694585f6b1dc60bb207
+  - enabled: 1
+    path: Assets/Scenes/RacerMode.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/ChallengeMode.unity
+    guid: 22620c3a920c2a448b9007bf21895d0b
+  - enabled: 1
+    path: Assets/Scenes/DestroyMode.unity
+    guid: d35f5b07d48c5374ea4da421df17539c
   m_configObjects: {}
