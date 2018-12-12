@@ -3,6 +3,10 @@
 This 2D Unity Racer game is based on the tutorial online. At the end are some of the sources which I have learnt the skills necessary to build this game.
 
 ## Tips on Creating Simple Buttons in Photoshop (Freestyle)
+
+![button1](./Assets/Sprites/RaceButton.png=250x)
+![button2](./Assets/Sprites/QuitButton.png=250x)
+
 1. Start with a new file
 1. Make the background
 1. Create a new layer
@@ -17,6 +21,14 @@ This 2D Unity Racer game is based on the tutorial online. At the end are some of
 1. Crop
 1. File -> save for web -> png24 (for the transparent background)
 1. DONE
+
+## Explosion Animation
+
+The following explosion animation was made using photoshop. The settings are as follows:
+- **Colors** : *#ff993e*, *#ff7800*, *#ff4800*, *#ffcc00*, *#4e4336*. 
+- **Canvas Size** : 400px x 400px 
+
+![explosion](./Documentation/Explosion.gif)
 
 ## Credits
 
@@ -33,6 +45,5 @@ This 2D Unity Racer game is based on the tutorial online. At the end are some of
 	- [Explosion Animation and Collision Detection](https://www.youtube.com/watch?v=iTHEXMF0hpc)
 - **Jaysen Batchelor**
 	- [Create Explosion Animation in Photoshop](https://www.youtube.com/watch?v=VMXEXVrX2tw)
-	- Colors which I used: *#ff993e*, *#ff7800*, *#ff4800*, *#ffcc00*, *#4e4336*
 - **Jertlok**
 	- [3-2-1...Go Race Audio](https://www.youtube.com/watch?v=SuzKmKapAmM)
